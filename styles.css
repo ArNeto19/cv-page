@@ -1,0 +1,107 @@
+body {
+  background-color: #FBF2CF;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.6rem auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7D99AD;
+  text-decoration: underline;
+}
+
+hr {
+  border-style: outset none none;
+  border-radius: 85%;
+  border-color: #E3D3AF;
+  border-width: 4px;
+  margin: 20px auto;
+  width: 30%;
+}
+
+footer {
+  padding: 1% 2%;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 20%
+}
+
+.personal-info {
+  margin: 0.3rem auto;
+}
+
+.skill-text {
+  margin: 0.3rem auto;
+}
+
+.skill-icon {
+  height: 2.5rem;
+  margin: 1rem;
+}
+
+.section-title {
+  width: 15%;
+  padding: 8rem 0;
+  margin: 0 2rem;
+}
+
+.about {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.exp-p {
+  margin: 0.1rem auto 0.8rem;
+}
+
+.courses-p {
+  font-size: 0.9rem;
+  margin: 0.1rem auto 0.8rem;
+}
+
+/*-- @media section */
+
+@media (max-width: 991px) {
+  body {
+    text-align: center;
+  }
+
+  .row {
+    display: inherit;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  .name {
+    font-size: 1.3rem
+  }
+}
