@@ -50,6 +50,15 @@ footer {
   margin: 1rem;
 }
 
+.btn {
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #E3D3AF;
+  color: #7D99AD;
+}
+
 .section-title {
   width: 15%;
   padding: 8rem 0;
@@ -62,7 +71,7 @@ footer {
 }
 
 .exp-p {
-  margin: 0.1rem auto 0.8rem;
+  margin: 0.1rem auto 0.9rem;
 }
 
 .courses-p {
@@ -103,5 +112,9 @@ footer {
 
   .name {
     font-size: 1.3rem
+  }
+
+  .exp-p {
+    font-size: 1rem;
   }
 }
