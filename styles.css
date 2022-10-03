@@ -3,6 +3,10 @@ body {
   padding: 1rem;
 }
 
+section {
+  max-width: 1250px;
+}
+
 p {
   font-size: 1rem;
   margin: 0.6rem auto;
@@ -34,7 +38,11 @@ footer {
 
 .profile-pic {
   border-radius: 50%;
-  width: 20%
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+  margin: 40px auto 0 auto;
+  display: block;
 }
 
 .personal-info {
@@ -88,10 +96,6 @@ footer {
 
   .row {
     display: inherit;
-  }
-
-  .profile-pic {
-    width: 50%;
   }
 
   .about {
