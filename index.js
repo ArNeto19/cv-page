@@ -7,8 +7,8 @@ const experienceTitle = $('#experience-title');
 const coursesTitle = $('#courses-title');
 const [roleOne, roleTwo ] = [$('.exp-p').eq(0), $('.exp-p').eq(1)];
 const [listOne, listTwo] = [$('ul').eq(0), $('ul').eq(1)];
-const [courseOne, courseTwo, courseThree] = [$('h6').eq(0), $('h6').eq(1), $('h6').eq(2)];
-const [courseDescrOne, courseDescrTwo, courseDescrThree] = [$('.courses-p').eq(0), $('.courses-p').eq(1), $('.courses-p').eq(2)];
+const [courseOne, courseTwo, courseThree, courseFour] = [$('h6').eq(0), $('h6').eq(1), $('h6').eq(2), $('h6').eq(3)];
+const [courseDescrOne, courseDescrTwo, courseDescrThree, courseDescrFour] = [$('.courses-p').eq(0), $('.courses-p').eq(1), $('.courses-p').eq(2), $('.courses-p').eq(3)];
 
 $('.btn').click((err) => {
 
@@ -16,7 +16,7 @@ $('.btn').click((err) => {
 
     button.text('Portuguese');
     aboutTitle.text('Professional Resume');
-    aboutContent.html("<p>With a Bachelor Degree in Intenational Relations and an english proficiency certificate, I've recently concluded a web development course, focused on React.js, and keep studying about new technologies and some DevOps metodologies. I'm seeking oportunities to introduce myself in the technology market and keep improving my set of skills, aiming for FrontEnd development positions.</p> <p>I'm organized, dedicated and diligent, always regarding for accountability, and I keep seeking professional growth and to acquire greater knowledge about the labor market. I have experience on customer sucess and administrative routines, but now I'm aiming a career transition to the tech area.</p> <p>During my previous experiences on courses, college and labor market I've acquired skills and knowledge that corroborate to a great professional formation and can guarantee a excelent performance on the execution of whatever tasks and challenges that come up. </p>");
+    aboutContent.html("<p>With a Bachelor Degree in Intenational Relations and an english proficiency certificate, I've recently concluded a web development course, focused on JavaScript. I'm seeking to add new technologies to my stack, and also been studying some DevOps methodologies. I'm seeking oportunities to introduce myself in the technology market and keep improving my set of skills, aiming for FrontEnd development positions.</p> <p>I'm organized, dedicated and diligent, always regarding for accountability, and I keep seeking professional growth and to acquire greater knowledge about the labor market. I have experience on customer sucess and administrative routines, but now I'm aiming a career transition to the tech area.</p> <p>During my previous experiences on courses, college and labor market I've acquired skills and knowledge that corroborate to a great professional formation and can guarantee a excelent performance on the execution of whatever tasks and challenges that come up. </p>");
     experienceTitle.text('Previous Experiences');
     roleOne.html('<em>Administrative Coordinator</em>');
     listOne.html('<li>Team management</li><li>Public Relations management</li><li>CRM platform management</li><li>E-commerce Management</li>');
@@ -28,6 +28,8 @@ $('.btn').click((err) => {
     courseDescrTwo.html('<em>Udemy (concluded on Sep/2022)</em>');
     courseThree.text('DevOps Journey');
     courseDescrThree.html('<em>Udemy (In progress)</em>');
+    courseFour.html('<h6 class="mb-0"><a href="https://www.dio.me/certificate/2725B9D9/share">Object Oriented Programming with TypeScript <i class="fa-solid fa-up-right-from-square"></i></a> </h6>');
+    courseDescrFour.html('<em>Digital Innovation One (concluded on Oct/2022)</em>');
 
 
   } else if (button.html() == 'Portuguese') {
@@ -46,6 +48,8 @@ $('.btn').click((err) => {
     courseDescrTwo.html('<em>Udemy (concluído em Set/2022)</em>');
     courseThree.text('Jornada DevOps');
     courseDescrThree.html('<em>Udemy (Em andamento)</em>');
+    courseFour.html('<h6 class="mb-0"><a href="https://www.dio.me/certificate/2725B9D9/share">Programação Orientada a Objetos com TypeScript <i class="fa-solid fa-up-right-from-square"></i></a></h6>');
+    courseDescrFour.html('<em>Digital Innovation One (concluído em Out/2022)</em>');
 
   } else {
     console.log(err);
