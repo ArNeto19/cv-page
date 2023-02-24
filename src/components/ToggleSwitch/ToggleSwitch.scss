@@ -1,0 +1,80 @@
+.toggle-switch {
+  position: relative;
+  width: 125px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin: 10px auto;
+
+  &-checkbox {
+    display: none;
+  }
+
+  &-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    margin: 0;
+  }
+
+  &-inner {
+    display: block;
+    width: 200%;
+    margin-left: 0;
+    transition: margin 0.3s ease-in 0s;
+    &:before,
+    &:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 34px;
+      padding: 0;
+      line-height: 34px;
+      font-size: 14px;
+      color: white;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+    &:before {
+      content: "Português";
+      text-transform: uppercase;
+      padding-left: 10px;
+      background-color: #B99B6B;
+      color: #fff;
+    }
+  }
+  
+  &-inner:after {
+    content: "English";
+    text-transform: uppercase;
+    padding-right: 10px;
+    background-color: #B99B6B;
+    color: #fff;
+    text-align: right;
+  }
+
+  &-switch {
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background: #213547;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+  }
+
+  &-checkbox:checked + &-label {
+    .toggle-switch-inner {
+      margin-left: -100%;
+    }
+    .toggle-switch-switch {
+      right: 90px;
+    }
+  }
+}
