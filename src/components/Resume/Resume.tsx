@@ -8,7 +8,7 @@ export const Resume = ({ toggleToEnglish }: any) => {
           {!toggleToEnglish ? "Resumo Profissional" : "Professional Resume"}
         </h2>
       </div>
-      {toggleToEnglish ? portugueseParagraph : englishParagraph}
+      {!toggleToEnglish ? portugueseParagraph : englishParagraph}
     </section>
   );
 };
