@@ -1,4 +1,4 @@
-import { portugueseContent, englishContent } from "./resumeContent";
+import { portugueseParagraph, englishParagraph } from "./resumeContent";
 
 export const Resume = ({ toggleToEnglish }: any) => {
   return (
@@ -8,11 +8,7 @@ export const Resume = ({ toggleToEnglish }: any) => {
           {!toggleToEnglish ? "Resumo Profissional" : "Professional Resume"}
         </h2>
       </div>
-      <div className="text-justify leading-7 pl-3 md:w-3/5 max-md:p-2">
-        <p>{!toggleToEnglish ? portugueseContent.p1 : englishContent.p1}</p>
-        <p>{!toggleToEnglish ? portugueseContent.p2 : englishContent.p2}</p>
-        <p>{!toggleToEnglish ? portugueseContent.p3 : englishContent.p3}</p>
-      </div>
+      {toggleToEnglish ? portugueseParagraph : englishParagraph}
     </section>
   );
 };
