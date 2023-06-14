@@ -4,7 +4,8 @@ import {
   kualityEnAttributions,
   detranPtAttributions,
   detranEnAttributions,
-  ayoAttributions,
+  ayoPtAttributions,
+  ayoEnAttributions,
 } from "./workAttributions";
 
 export const Experience = ({ toggleToEnglish }: any) => {
@@ -20,18 +21,21 @@ export const Experience = ({ toggleToEnglish }: any) => {
           title={!toggleToEnglish ? "Desenvolvedor Full Stack" : "Full Stack Developer"}
           period="2023-"
           company="Ayo"
-          attributions={ayoAttributions}
+          companyHref="https://entregas.ayoapp.com.br/"
+          attributions={!toggleToEnglish ? ayoPtAttributions : ayoEnAttributions}
         />
         <ExperienceRow
           title={!toggleToEnglish ? "Coordenador Administrativo" : "Administrative Coordinator"}
           period="2019-2021"
           company="Rede de Ensino Kuality Brasil"
+          companyHref="https://kualitybrasil.com.br/"
           attributions={!toggleToEnglish ? kualityPtAttributions : kualityEnAttributions}
         />
         <ExperienceRow
           title={!toggleToEnglish ? "Estagiário" : "Intern"}
           period="2017-2019"
           company="DETRAN-SE"
+          companyHref="https://www.detran.se.gov.br/"
           attributions={!toggleToEnglish ? detranPtAttributions : detranEnAttributions}
         />
       </div>

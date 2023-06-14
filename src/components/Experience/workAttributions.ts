@@ -25,8 +25,12 @@ const detranEnAttributions = [
   "Querying customer data and processes",
 ];
 
-const ayoAttributions = [
-  "Criação e manutenção em softwares para aplicações com foco no setor de serviços.",
+const ayoPtAttributions = [
+  "Criação e manutenção em softwares para aplicações com foco no setor de serviços",
+];
+
+const ayoEnAttributions = [
+  "Creation and maintenance of software for applications focused on the service sector",
 ];
 
 export {
@@ -34,5 +38,6 @@ export {
   kualityEnAttributions,
   detranPtAttributions,
   detranEnAttributions,
-  ayoAttributions,
+  ayoPtAttributions,
+  ayoEnAttributions,
 };
