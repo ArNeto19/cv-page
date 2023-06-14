@@ -2,17 +2,20 @@ interface Props {
   title: string;
   period: string;
   company: string;
+  companyHref?: string;
   attributions: string[];
 }
 
-export const ExperienceRow = ({ title, period, company, attributions }: Props) => {
+export const ExperienceRow = ({ title, period, company, companyHref, attributions }: Props) => {
   return (
     <div className="leading-5 my-3">
       <div>
         <h3 className="m-0 font-medium">
           {title} ({period})
         </h3>
-        <em>{company}</em>
+        <a href={companyHref} target="_blank">
+          <em>{company}</em>
+        </a>
       </div>
       <div>
         <ul className="my-2">
