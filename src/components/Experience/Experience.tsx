@@ -4,6 +4,7 @@ import {
   kualityEnAttributions,
   detranPtAttributions,
   detranEnAttributions,
+  ayoAttributions,
 } from "./workAttributions";
 
 export const Experience = ({ toggleToEnglish }: any) => {
@@ -15,6 +16,12 @@ export const Experience = ({ toggleToEnglish }: any) => {
         </h2>
       </div>
       <div className="text-justify leading-7 pl-3 md:w-3/5 max-md:p-2">
+        <ExperienceRow
+          title={!toggleToEnglish ? "Desenvolvedor Full Stack" : "Full Stack Developer"}
+          period="2023-"
+          company="Ayo"
+          attributions={ayoAttributions}
+        />
         <ExperienceRow
           title={!toggleToEnglish ? "Coordenador Administrativo" : "Administrative Coordinator"}
           period="2019-2021"
