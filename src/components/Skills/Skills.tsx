@@ -8,10 +8,13 @@ export const Skills = ({ toggleToEnglish }: any) => {
       </div>
       <div className="text-justify leading-7 pl-3 md:w-3/5 max-md:p-2">
         <p>
-          HTML, CSS, Javascript, Bootstrap, jQuery, Typescript, React, Next.js, Vue.js, Styled
-          Components, Chakra UI, Material UI, TailwindCSS, React Native, Expo, Node.js, Express,
-          Fastify, TypeORM, Prisma, PostgreSQL, Sqlite, MongoDB, Mongoose, JWT, OAuth, REST APIs,
-          Git, Github, Docker.
+          <b>Main working techs</b>: Javascript, Typescript, React.js, React Native, Redux,
+          Bootstrap, SASS, Styled Components, Node.js, Redux, Firebase, MongoDB, Git.
+        </p>
+        <p>
+          <b>Other known techs</b>: HTML, CSS, jQuery, PHP, Next.js, Vite.js, Vue.js, Chakra UI,
+          Material UI, TailwindCSS, Expo, Express, Fastify, TypeORM, Prisma, PostgreSQL, Sqlite,
+          Mongoose, JWT, OAuth, REST APIs, Docker.
         </p>
       </div>
     </section>

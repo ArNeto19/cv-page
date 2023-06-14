@@ -8,15 +8,6 @@ const PortugueseParagraph = () => {
         metodologias.
       </p>
       <p>
-        Principais tecnologias com as quais trabalho: Javascript, Typescript, React.js, React
-        Native, Redux, Bootstrap, SASS, Styled Components, Node.js, Redux, Firebase, MongoDB, Git.
-      </p>
-      <p>
-        Outras tecnologias que já utilizei em estudos e projetos: HTML, CSS, jQuery, PHP, Next.js,
-        Vite.js, Vue.js, Chakra UI, Material UI, TailwindCSS, Expo, Express, Fastify, TypeORM,
-        Prisma, PostgreSQL, Sqlite, Mongoose, JWT, OAuth, REST APIs, Docker.
-      </p>
-      <p>
         Sou organizado, flexível e dedicado, prezando ainda pela responsabilidade, sempre buscando
         desenvolvimento profissional e adquirindo maior conhecimento sobre o mercado de trabalho.
         Conto ainda com boas experiências em relacionamento com o cliente e rotinas administrativas.
@@ -38,15 +29,6 @@ const EnglishParagraph = () => {
         proficiency certificate, I'm currently working as a developer for{" "}
         <a href="https://entregas.ayoapp.com.br/">Ayo</a>. Always seeking to add new technologies to
         my stack, and also been studying some methodologies.
-      </p>
-      <p>
-        Main techs that I've been working with: Javascript, Typescript, React.js, React Native,
-        Bootstrap, SASS, Styled Components, Node.js, Redux, Firebase, MongoDB, Git.
-      </p>
-      <p>
-        Other techs that I've been studying and using on projects so far: HTML, CSS, jQuery, PHP,
-        Next.js, Vite.js, Vue.js, Chakra UI, Material UI, TailwindCSS, Expo, Express, Fastify,
-        TypeORM, Prisma, PostgreSQL, Sqlite, Mongoose, JWT, OAuth, REST APIs, Docker.
       </p>
       <p>
         I'm organized, dedicated and diligent, always regarding for accountability, and I keep

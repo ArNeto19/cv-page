@@ -31,7 +31,7 @@ export const Heading = () => {
         </div>
         <div>
           <p>
-            <em>TypeScript | React | React Native | Node.js | PostgreSQL | MongoDB</em>
+            <em>Javascript |TypeScript | React | React Native | Node.js</em>
           </p>
         </div>
       </div>
