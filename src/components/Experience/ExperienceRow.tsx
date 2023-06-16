@@ -13,7 +13,7 @@ export const ExperienceRow = ({ title, period, company, companyHref, attribution
         <h3 className="m-0 font-medium">
           {title} ({period})
         </h3>
-        <a href={companyHref} target="_blank">
+        <a href={companyHref} target="_blank" rel="noreferrer noopener">
           <em>{company}</em>
         </a>
       </div>

@@ -3,7 +3,7 @@ export const Footer = () => {
 
   return (
     <footer className="mt-20">
-      <a href="https://github.com/ArNeto19" target="_blank">@ArNeto19</a> ⓒ {thisYear}{" "}
+      <a href="https://github.com/ArNeto19" target="_blank" rel="noreferrer noopener">@ArNeto19</a> ⓒ {thisYear}{" "}
     </footer>
   );
 };

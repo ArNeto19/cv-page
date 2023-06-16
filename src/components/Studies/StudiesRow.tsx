@@ -11,7 +11,7 @@ export const StudiesRow = ({ title, institution, link }: Props) => {
         <h3 className="m-0 font-medium"> {title} </h3>
       ) : (
         <h3 className="m-0 font-medium">
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer noopener">
             {title} <i className="fa-solid fa-up-right-from-square h-3"></i>
           </a>
         </h3>
