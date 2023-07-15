@@ -32,6 +32,7 @@ const ayoPtAttributions = [
 
 const ayoEnAttributions = [
   "Creation and maintenance of solutions on softwares used on the services sector, with focus on delivery service.",
+  "JavaScript · TypeScript · React.js · Node.js · React Native · Redux · SASS · Scrum · Kanban · Firebase · MongoDB · Git",
 ];
 
 export {
