@@ -3,9 +3,9 @@ const PortugueseParagraph = () => {
     <div className="text-justify leading-7 pl-3 md:w-3/5 max-md:p-2">
       <p>
         Desenvolvedor Full Stack, bacharel em Relações Internacionais e proficiente em inglês, atuo
-        como desenvolvedor junto à <a href="https://entregas.ayoapp.com.br/">Ayo</a> e sigo me
-        aprimorando, adicionando mais tecnologias ao meu stack e estudando também sobre
-        metodologias.
+        como desenvolvedor junto à <a href="https://entregas.ayoapp.com.br/">Ayo</a>, startup
+        sergipana no seguimento de delivery, e sigo me aprimorando, adicionando mais tecnologias ao
+        meu stack e estudando também sobre metodologias.
       </p>
       <p>
         Sou organizado, flexível e dedicado, prezando ainda pela responsabilidade, sempre buscando
@@ -27,8 +27,9 @@ const EnglishParagraph = () => {
       <p>
         Full-Stack Developer, with a Bachelor Degree in International Relations and an english
         proficiency certificate, I'm currently working as a developer for{" "}
-        <a href="https://entregas.ayoapp.com.br/">Ayo</a>. Always seeking to add new technologies to
-        my stack, and also been studying some methodologies.
+        <a href="https://entregas.ayoapp.com.br/">Ayo</a>, a deliveries segment startup from
+        Sergipe. Always seeking to add new technologies to my stack, and also been studying some
+        methodologies.
       </p>
       <p>
         I'm organized, dedicated and diligent, always regarding for accountability, and I keep

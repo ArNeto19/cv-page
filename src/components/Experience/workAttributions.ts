@@ -26,11 +26,12 @@ const detranEnAttributions = [
 ];
 
 const ayoPtAttributions = [
-  "Criação e manutenção em softwares para aplicações com foco no setor de serviços",
+  "Criação e manutenção de soluções para softwares em aplicações com foco no setor de serviços de delivery.",
+  "JavaScript · TypeScript · React.js · Node.js · React Native · Redux · SASS · Scrum · Kanban · Firebase · MongoDB · Git",
 ];
 
 const ayoEnAttributions = [
-  "Creation and maintenance of software for applications focused on the service sector",
+  "Creation and maintenance of solutions on softwares used on the services sector, with focus on delivery service.",
 ];
 
 export {
